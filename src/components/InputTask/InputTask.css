@@ -1,0 +1,39 @@
+.input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+.input-icon {
+    color: lightgray;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.task-input {
+    font-style: italic;
+    border: none;
+    flex-grow: 1;
+    font-size: 16px;
+    outline: none;
+    background: none;
+    color: #333;
+}
+
+.task-input::placeholder {
+    color: lightgray;
+}
+.input-button{
+    border: 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+.input-button:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+  
